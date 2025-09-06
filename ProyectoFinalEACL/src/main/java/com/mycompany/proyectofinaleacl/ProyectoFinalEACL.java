@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class ProyectoFinalEACL {
 
     public static void main(String[] args) {
-        // DECLARAMOS VARIABLES PARA EL PROBLEMA   
+        // DECLARAMOS VARIABLES PARA EL PROBLEMA   :
         String nombre;
         double compra_1, compra_2, compra_3, tc, prom;
         Scanner lectura=new Scanner(System.in);
         
-        // Datos de entrada
+        // Datos de entrada :
         System.out.print("Ingresar el nombre del cliente:");
         nombre=lectura.nextLine();
         
@@ -23,12 +23,12 @@ public class ProyectoFinalEACL {
         System.out.print("Ingresar Compra 3:");
         compra_3=lectura.nextDouble();
         
-        // Procesando datos
+        // Procesando dato:
         
         tc = compra_1 + compra_2 + compra_3;
         prom = tc/3;
         
-        // Datos de Salida
+        // Datos de Salida :
         
          System.out.println("------RESULTADOS-----");
          System.out.println("Nombre del Cliente:" + nombre);
